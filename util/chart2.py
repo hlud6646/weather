@@ -1,6 +1,5 @@
 from util.scrapers import bom, smh, wzn
 import pandas as pd
-degree_sign = u"\N{DEGREE SIGN}"
 
 
 def chart():
@@ -14,7 +13,7 @@ def chart():
 		},
 		'yAxis': {
 			'title': {
-				'text': f'Temp ({degree_sign}C)'
+				'text': f'Temp (deg C)'
 			}
 		},
 		'xAxis': {

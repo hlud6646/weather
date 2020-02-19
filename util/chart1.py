@@ -1,5 +1,4 @@
 from util.scrapers import bom, smh, wzn
-degree_sign = u"\N{DEGREE SIGN}"
 
 def aggregate_temps():
     return [{
@@ -23,7 +22,7 @@ def chart():
 		'yAxis': {
 			'min': 0,
 			'title': {
-				'text': f'Temp ({degree_sign}C)'
+				'text': f'Temp (deg C)'
 				}
 		},
 		'series': aggregate_temps()
