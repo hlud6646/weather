@@ -1,6 +1,8 @@
 import bs4, urllib.request
 
 def get_soup(url):
+	""" Get the raw html soup for the given url.
+	    The methods below extract the current temperature for each source."""
 	headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.3'}
 	req = urllib.request.Request(url, headers=headers)
 	raw = urllib.request.urlopen(req).read() 
