@@ -13,7 +13,7 @@ def chart():
 		},
 		'yAxis': {
 			'title': {
-				'text': f'Temp (deg C)'
+				'text': 'Temp (deg C)'
 			}
 		},
 		'xAxis': {

@@ -22,7 +22,7 @@ def chart():
 		'yAxis': {
 			'min': 0,
 			'title': {
-				'text': f'Temp (deg C)'
+				'text': 'Temp (deg C)'
 				}
 		},
 		'series': aggregate_temps()
